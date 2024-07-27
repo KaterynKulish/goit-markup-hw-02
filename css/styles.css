@@ -1,5 +1,5 @@
 body {
-  font-family: 'roboto', 'raleway';
+  font-family: 'roboto', sans-serif, 'raleway', sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -34,6 +34,9 @@ a {
 .nav-link:focus {
   color: #404bbf;
 }
+.contacts {
+  font-style: normal;
+}
 .contacts-link {
   font-weight: 400;
   font-size: 16px;
@@ -41,11 +44,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-link:hover {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 .hero {
@@ -56,17 +56,22 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 .hero-button {
+  font-family: 'roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
+  font-family: 'roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -96,14 +101,17 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .subtitle-section {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
+  color: #2e2f42;
+  background-color: #fff;
 }
 .text {
   font-weight: 400;
@@ -112,6 +120,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  background-color: #fff;
+}
+
+.team {
+  background-color: #f4f4fd;
 }
 
 .footer {

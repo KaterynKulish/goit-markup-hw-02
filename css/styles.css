@@ -1,5 +1,5 @@
 body {
-  font-family: 'roboto', sans-serif, 'raleway', sans-serif;
+  font-family: 'Roboto', sans-serif, 'raleway', sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -60,7 +60,7 @@ a {
   color: #fff;
 }
 .hero-button {
-  font-family: 'roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -125,6 +125,9 @@ a {
 
 .team {
   background-color: #f4f4fd;
+}
+.team-item {
+  background-color: #fff;
 }
 
 .footer {
